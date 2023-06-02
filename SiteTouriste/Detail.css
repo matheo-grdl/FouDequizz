@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+img{
+    width: 50vw;
+    margin-bottom: 10%;
+}
+#image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 35%;
+
+}
+a{
+    text-decoration: none;
+}

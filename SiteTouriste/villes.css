@@ -1,0 +1,26 @@
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+
+}
+article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40vh;
+    width: 60vw;
+    background-color: #FFDF2B;
+    margin-top: 50px;
+    text-align: center;
+
+    
+}
+#infoVilles{
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,77 @@
+<!--
+
+    matheo gerdil
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <header></header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">Les villes</a></li>
+            <li><a href="About.html">About</a></li>
+          </ul>
+        
+    </nav>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulaire de contact</h1>
+  
+  <form>
+    <label for="name">Nom :</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" required></textarea>
+    
+    <button type="submit">Envoyer</button>
+  </form>
+  <link rel="stylesheet" href="style.css" class="css">
+</body>
+</html>
